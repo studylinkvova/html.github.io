@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+body{
+background:lime;
+color:red;
+font-family:cursive;
+}
+</style>
+</head>
+<body>
+<h1 align="center">Список для сільпо</h1>
+<ol>
+	<li>Круасан</li>
+	<li>Сок</li>
+	<li>Спрайт</li>
+	<li>Шоколад</li>
+</ol>
+<hr width="300px" size="3px" color="black" align="left">
+<h1 align="center">Список для епіцентра</h1>
+<ul>
+	<li>Лобзік</li>
+	<li>Монтажна піна</li>
+	<li>цемент</li>
+</ul>
+</body>
+</html>
