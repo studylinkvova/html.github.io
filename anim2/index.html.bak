@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+	.test{
+		width:400px;
+		height:400px;
+		background:url(https://beze.com.ua/image/cache/data/New-Directory/Pischevaya-pechat/hagi-vagi-vk-beze-900x600.jpg);
+		background-size:100% 100%;
+		animation:anim 5s linear 1s infinite alternate;
+	}
+	@keyframes anim{
+	0%{
+		transform:translate(0px, 0px);
+		
+	}
+	25%{
+		transform:translate(1000px,0px);
+	}
+	50%{
+		transform:translate(1000px,500px);
+	}
+	75%{
+		transform:translate(0px,0px);
+	}
+	100%{
+		transform:translate(0px,0px);
+		
+	}
+	}
+</style>
+</head>
+<body>
+<div class="test"></div>
+</body>
+</html>
