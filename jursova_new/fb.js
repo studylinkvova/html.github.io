@@ -5,7 +5,7 @@ const firebaseConfig = {
     storageBucket: "newproject-da7c7.appspot.com",
     messagingSenderId: "261880518754",
     appId: "1:261880518754:web:2762727ee8c36fd63c593b",
-    storageBucket: '[gs://studylinkv.appspot.com]' //увага
+    storageBucket: '['gs://studylinkv.appspot.com']' //увага
   };
 
 firebase.initializeApp(firebaseConfig);
