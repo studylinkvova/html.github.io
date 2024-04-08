@@ -1,0 +1,59 @@
+.block{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to right, red,blue);
+    margin: 40px auto;
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all 0.5s linear;
+}
+
+.anime1:hover{
+    box-shadow: 0 0 0 35px pink inset;
+}
+.anime2{
+    opacity: 0.1;
+}
+.anime2:hover{
+    opacity: 1;
+}
+.anime3:hover{
+    transform: scale(1.2);
+}
+.anime4:hover{
+    border-radius: 100px;
+    width: 500px;
+}
+.anime5:hover{
+    transform: rotateZ(20deg);
+    margin: 72px auto;
+}
+p{
+    animation: flip 0.5s linear 0.5s infinite;
+}
+@keyframes flip {
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.anime7{
+    animation: neznau 10s ease 0s 1188 alternate;
+}
+@keyframes neznau {
+    38%{
+        opacity: 0;
+    }
+    58%{
+        transform: scale(2);
+    }
+    77%{
+        transform: rotateZ(90deg);
+    }
+    100%{
+        transform: skew(10deg,5deg);
+    }
+}
